@@ -1,0 +1,17 @@
+
+
+spring:
+  redis:
+    host: localhost
+  datasource:
+    username: root
+    password: zhangqi1112
+    url: jdbc:mysql://localhost:3306/sptest?characterEncoding=utf8&serverTimezone=UTC&useSSL=false
+    driver-class-name: com.mysql.cj.jdbc.Driver
+#    schema:
+#      - classpath:schema.sql
+#      - classpath:data.sql
+    initialization-mode: always
+server:
+  port: 8000
+
